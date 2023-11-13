@@ -9,6 +9,20 @@ hr {
   margin-right: auto;
 }
 
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 #IMFchart, #speedchart {
   margin: 10px;
   width: 40vw;
@@ -34,6 +48,14 @@ hr {
   width: 50%;
 }
 
+#result {
+  margin-top: 20px;
+}
+
+#latitude {
+  width: 10vw;
+}
+
 .chart-container {
   display: flex;
   justify-content: center;
@@ -48,6 +70,19 @@ hr {
 .index-container a {
   padding: 10px;
   color: red;
+}
+
+.lat-calc-container {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.calc-subcontainer {
+  margin: 20px;
 }
 
 .stats-container {

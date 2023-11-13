@@ -484,8 +484,6 @@ fetch('https://services.swpc.noaa.gov/text/aurora-nowcast-hemi-power.txt')
     document.getElementById('hp-180m').innerHTML = calcTrends(hp_nh.slice(-36))
 
     createHPChart(timestamps.slice(-62), hp_nh.slice(-62))
-
-    console.log(hp_nh)
   })
   .catch(error => {
     console.error('Error:', error);
